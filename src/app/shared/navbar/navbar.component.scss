@@ -1,0 +1,21 @@
+@import '/src/assets/styles/variables';
+
+.navbar {
+    background-color: $onbg;
+    padding: 20px 50px;
+
+    .navbar-list {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        .item {
+            a {
+                color: $bg;
+                font-weight: bold;
+                font-size: 2rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
