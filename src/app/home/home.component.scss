@@ -1,0 +1,56 @@
+@import '../../assets/styles/utils';
+
+.home {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .texts {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 470px;
+
+            .text {
+                font-weight: bold;
+                font-size: 3rem;
+                text-align: center;
+                margin-bottom: 10px;
+
+                span {
+                    display: block;
+                }
+            }
+
+            .btn {
+                font-size: 2rem;
+                margin-bottom: 10px;
+            }
+        }
+
+        .images {
+            img {
+                width: 500px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .home {
+        .container {
+            flex-direction: column;
+            padding-top: 71px;
+    
+            .images {
+                margin-top: 10px;
+    
+                img {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}

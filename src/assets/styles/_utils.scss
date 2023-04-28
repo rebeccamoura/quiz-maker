@@ -1,0 +1,29 @@
+@import './variables';
+
+.btn {
+    background-color: $hl;
+    color: $onbg;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 90%;
+    width: 100%;
+    margin: auto;
+    height: calc(100vh - 71px);
+}
+
+.show-all {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    text-decoration: underline;
+    cursor: pointer;
+
+    .icon {
+        width: 25px;
+    }
+}
