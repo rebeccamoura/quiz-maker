@@ -1,0 +1,24 @@
+@import '/src/assets/styles/variables';
+@import '/src/assets/styles/utils';
+
+.navbar {
+    background-color: $onbg;
+
+    .list-wrapper {
+        padding: 20px 0;
+
+        .list {
+            display: flex;
+            gap: 10px;
+            justify-content: end;
+            
+            .list-item {
+                a {
+                    color: $bg;
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
