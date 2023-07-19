@@ -1,0 +1,40 @@
+@import '/src/assets/styles/utils';
+
+.home {
+    .container {
+        margin: 15px auto 0;
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: calc(100vh - 74px);
+
+            .texts {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                .title {
+                    font-size: 3rem;
+                    width: 100%;
+                    max-width: 430px;
+                    text-align: center;
+
+                    span {
+                        display: block;
+                    }
+                }
+
+                .all-quizzes {
+                    font-size: 2rem;
+                    text-align: center;
+                }
+            }
+
+            .create-quiz {
+                font-size: 3rem;
+            }
+        }
+    }
+}

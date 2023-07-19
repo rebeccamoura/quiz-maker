@@ -1,4 +1,14 @@
+@import '/src/assets/styles/variables';
+
 .container {
     width: 100%;
     max-width: 95vw;
+}
+
+.btn {
+    background-color: $hl;
+    color: $onbg;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
 }
