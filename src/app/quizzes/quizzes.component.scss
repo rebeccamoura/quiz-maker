@@ -3,5 +3,11 @@
 .quizzes {
     .container {
         margin: auto;
+        
+        .header {
+            .title {
+                font-size: $title;
+            }
+        }
     }
 }

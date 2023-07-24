@@ -1,4 +1,3 @@
-@import '/src/assets/styles/variables';
 @import '/src/assets/styles/utils';
 
 .navbar {
@@ -11,12 +10,14 @@
             display: flex;
             gap: 10px;
             justify-content: end;
+            list-style: none;
             
             .list-item {
                 a {
                     color: $bg;
                     font-size: 1.6rem;
                     font-weight: bold;
+                    text-decoration: none;
                 }
             }
         }
