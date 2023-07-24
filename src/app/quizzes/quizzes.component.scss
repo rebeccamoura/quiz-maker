@@ -5,9 +5,19 @@
         margin: auto;
         
         .header {
+            margin: 10px 0 20px;
+
             .title {
                 font-size: $title;
             }
+        }
+
+        .quizzes-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 20px;
         }
     }
 }
