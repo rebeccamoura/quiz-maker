@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { QuizzesComponent } from './quizzes/quizzes.component';
 import { QuizCardComponent } from './quiz-card/quiz-card.component';
+import { CreateQuizComponent } from './create-quiz/create-quiz.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { QuizCardComponent } from './quiz-card/quiz-card.component';
     HomeComponent,
     NavbarComponent,
     QuizzesComponent,
-    QuizCardComponent
+    QuizCardComponent,
+    CreateQuizComponent
   ],
   imports: [
     BrowserModule,
