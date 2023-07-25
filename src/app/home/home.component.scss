@@ -2,13 +2,13 @@
 
 .home {
     .container {
-        margin: 15px auto 0;
+        margin: 100px auto 0;
 
         .content {
             display: flex;
             align-items: center;
             justify-content: space-around;
-            height: calc(100vh - 74px);
+            // height: calc(100vh - 74px);
 
             .texts {
                 display: flex;
@@ -36,6 +36,31 @@
             .create-quiz {
                 font-size: 3rem;
                 cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .home {
+        .container {
+            .content {
+                .images {
+                    img {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .home {
+        .container {
+            margin: 50px auto;
+            .content {
+                flex-direction: column;
             }
         }
     }
