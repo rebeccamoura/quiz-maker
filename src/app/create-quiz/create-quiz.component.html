@@ -1,1 +1,58 @@
-<p>create-quiz works!</p>
+<div class="create-quiz">
+    <div class="container">
+        <ng-container class="header">
+            <h1 class="title">
+                Criar quiz
+            </h1>
+        </ng-container>
+
+        <form class="form" [formGroup]="quizForm" (ngSubmit)="onSubmit()">
+            <input class="input-text" type="text" placeholder="Nome do quiz" formControlName="name">
+            <input class="input-text" type="text" placeholder="Descrição" formControlName="description">
+
+            <ng-container class="questions-wrapper" formArrayName="questions">
+                <h2 class="subtitle">Perguntas</h2>
+
+                <ng-container *ngFor="let question of questions.controls; let questionIndex = index;">
+
+                    <div class="question-header">
+                        <h2 class="question-title">
+                            Pergunta {{ questionIndex + 1 }}
+                        </h2>
+                        <span class="remove-question material-symbols-outlined"
+                        (click)="removeQuestion(questionIndex)"
+                        *ngIf="questions.length >= 2">
+                            delete
+                        </span>
+                    </div>
+                    <ng-container [formGroupName]="questionIndex">
+                        <input class="input-text" type="text" placeholder="Digite sua pergunta" formControlName="question">
+
+                        <ng-container formArrayName="answers">
+                            <ng-container *ngFor="let answer of getAnswers(questionIndex).controls; let answerIndex = index;">
+                                <ng-container [formGroupName]="answerIndex">
+                                    <input class="input-text" type="text" [placeholder]="answerIndex === 0 ? 'Resposta verdadeira' : 'Resposta falsa'" formControlName="answer">
+                                </ng-container>
+                            </ng-container>
+                        </ng-container>
+                    </ng-container>
+                </ng-container>
+
+                <button class="btn new-question" type="button" (click)="addQuestion()">
+                    Adicionar nova pergunta
+                </button>
+            </ng-container>
+
+            <p class="hint" *ngIf="quizForm.status === 'INVALID'">
+                Para prosseguir, preencha todos os campos do formulário.
+            </p>
+
+            <div class="form-actions">
+                <button class="btn btn-sec cancel" type="button">Cancelar</button>
+                <button class="btn submit" type="submit" [disabled]="quizForm.status === 'INVALID'">
+                    Salvar
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
