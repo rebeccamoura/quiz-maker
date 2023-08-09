@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 import { FormArray, FormBuilder, Validators } from '@angular/forms';
+import { Quiz } from '../interfaces/quiz';
+import { QuizService } from '../services/quiz.service';
+import { Router } from '@angular/router';
+import { ThisReceiver } from '@angular/compiler';
 
 @Component({
   selector: 'app-create-quiz',
@@ -36,11 +40,7 @@ export class CreateQuizComponent {
     ])
   });
 
-  constructor( private fb: FormBuilder) {}
-
-  onSubmit() {
-    console.log('enviado!: ', this.quizForm.value)
-  }
+  constructor( private fb: FormBuilder, private quizService: QuizService, private router: Router ) {}
 
   get questions() {
     return this.quizForm.get('questions') as FormArray;
@@ -77,5 +77,13 @@ export class CreateQuizComponent {
   removeQuestion(index: number) {
     this.questions.removeAt(index)
   }
-
+  
+  onSubmit(): void {
+    this.quizService.createQuiz(this.quizForm.value as Quiz).subscribe(success => {
+      this.router.navigate(['/success'])
+    },
+    error => {
+      this.router.navigate(['/error'])
+    })
+  }
 }
