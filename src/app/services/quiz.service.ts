@@ -15,4 +15,8 @@ export class QuizService {
   createQuiz(quiz: Quiz): Observable<Quiz> {
     return this.http.post<Quiz>(`${this.endpoint}/quizes`, quiz);
   }
+
+  getQuizzes() {
+    return this.http.get<Quiz[]>(`${this.endpoint}/quizes`);
+  }
 }

@@ -1,270 +1,137 @@
 {
   "quizes": [
     {
-      "name": "asd",
-      "description": "asd",
+      "name": "Você conhece o Justin Bieber?",
+      "description": "Você sabe responder essas perguntas sobre o ídolo teen Justin Bieber?",
       "questions": [
         {
-          "question": "asd",
+          "question": "Qual o apelido do Justin?",
           "answers": [
             {
-              "answer": "asd",
+              "answer": "JB",
               "isCorrect": true
             },
             {
-              "answer": "asd",
+              "answer": "Bebers",
               "isCorrect": false
             },
             {
-              "answer": "asd",
+              "answer": "Flizto",
               "isCorrect": false
             },
             {
-              "answer": "asd",
+              "answer": "Flacko",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual o nome da doença de Justin Bieber?",
+          "answers": [
+            {
+              "answer": "Síndrome de Ramsay-Hunt",
+              "isCorrect": true
+            },
+            {
+              "answer": "Mal de Parkinson",
+              "isCorrect": false
+            },
+            {
+              "answer": "Anorexia",
+              "isCorrect": false
+            },
+            {
+              "answer": "Vitiligo",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual o nome do documentário do Justin no youtube?",
+          "answers": [
+            {
+              "answer": "Seasons",
+              "isCorrect": true
+            },
+            {
+              "answer": "Never say never",
+              "isCorrect": false
+            },
+            {
+              "answer": "Believer",
+              "isCorrect": false
+            },
+            {
+              "answer": "Life is worth",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Em que ano Justin Bieber casou com Hailey Bieber?",
+          "answers": [
+            {
+              "answer": "2018",
+              "isCorrect": true
+            },
+            {
+              "answer": "2020",
+              "isCorrect": false
+            },
+            {
+              "answer": "2019",
+              "isCorrect": false
+            },
+            {
+              "answer": "2021",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual o nome dos irmãos do Justin?",
+          "answers": [
+            {
+              "answer": "Allie, Jazmyn, Jaxon e Bay",
+              "isCorrect": true
+            },
+            {
+              "answer": "Jeremy e Pattie",
+              "isCorrect": false
+            },
+            {
+              "answer": "Ariana e Shawn",
+              "isCorrect": false
+            },
+            {
+              "answer": "Joe, Jimin, Blue, Bay",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual música do justin bieber mais tocada na atualidade?",
+          "answers": [
+            {
+              "answer": "Stay",
+              "isCorrect": true
+            },
+            {
+              "answer": "Peaches",
+              "isCorrect": false
+            },
+            {
+              "answer": "Ghost",
+              "isCorrect": false
+            },
+            {
+              "answer": "Intentions",
               "isCorrect": false
             }
           ]
         }
       ],
       "id": 1
-    },
-    {
-      "name": "asdasdsa",
-      "description": "sadasd",
-      "questions": [
-        {
-          "question": "fgfdg",
-          "answers": [
-            {
-              "answer": "jukyfd",
-              "isCorrect": true
-            },
-            {
-              "answer": "ewfdas",
-              "isCorrect": false
-            },
-            {
-              "answer": "asdasd",
-              "isCorrect": false
-            },
-            {
-              "answer": "AS",
-              "isCorrect": false
-            }
-          ]
-        }
-      ],
-      "id": 2
-    },
-    {
-      "name": "asdasdsa",
-      "description": "sadasd",
-      "questions": [
-        {
-          "question": "fgfdg",
-          "answers": [
-            {
-              "answer": "jukyfd",
-              "isCorrect": true
-            },
-            {
-              "answer": "ewfdas",
-              "isCorrect": false
-            },
-            {
-              "answer": "asdasd",
-              "isCorrect": false
-            },
-            {
-              "answer": "AS",
-              "isCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "gsgsfgfd",
-          "answers": [
-            {
-              "answer": "dfgdgdsf",
-              "isCorrect": true
-            },
-            {
-              "answer": "asdadsd",
-              "isCorrect": false
-            },
-            {
-              "answer": "cx",
-              "isCorrect": false
-            },
-            {
-              "answer": "cxvx",
-              "isCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "egthrg",
-          "answers": [
-            {
-              "answer": "fsdfda",
-              "isCorrect": true
-            },
-            {
-              "answer": "saakl",
-              "isCorrect": false
-            },
-            {
-              "answer": "çççç",
-              "isCorrect": false
-            },
-            {
-              "answer": "llll",
-              "isCorrect": false
-            }
-          ]
-        }
-      ],
-      "id": 3
-    },
-    {
-      "name": "asd",
-      "description": "dsa",
-      "questions": [
-        {
-          "question": "asd",
-          "answers": [
-            {
-              "answer": "das",
-              "isCorrect": true
-            },
-            {
-              "answer": "asd",
-              "isCorrect": false
-            },
-            {
-              "answer": "dsa",
-              "isCorrect": false
-            },
-            {
-              "answer": "asd",
-              "isCorrect": false
-            }
-          ]
-        }
-      ],
-      "id": 4
-    },
-    {
-      "name": "qUIZ FRIENDS",
-      "description": "quiz amigos",
-      "questions": [
-        {
-          "question": "vc he amigo",
-          "answers": [
-            {
-              "answer": "sim",
-              "isCorrect": true
-            },
-            {
-              "answer": "nao",
-              "isCorrect": false
-            },
-            {
-              "answer": "talvez",
-              "isCorrect": false
-            },
-            {
-              "answer": "nao sei",
-              "isCorrect": false
-            }
-          ]
-        }
-      ],
-      "id": 5
-    },
-    {
-      "name": "eeee",
-      "description": "ddddd",
-      "questions": [
-        {
-          "question": "aaaaa",
-          "answers": [
-            {
-              "answer": "bbbbb",
-              "isCorrect": true
-            },
-            {
-              "answer": "cccc",
-              "isCorrect": false
-            },
-            {
-              "answer": "dddd",
-              "isCorrect": false
-            },
-            {
-              "answer": "eeee",
-              "isCorrect": false
-            }
-          ]
-        }
-      ],
-      "id": 6
-    },
-    {
-      "name": "adsad",
-      "description": "asdsadas",
-      "questions": [
-        {
-          "question": "sdsadsa",
-          "answers": [
-            {
-              "answer": "sdsad",
-              "isCorrect": true
-            },
-            {
-              "answer": "asdasd",
-              "isCorrect": false
-            },
-            {
-              "answer": "sdsad",
-              "isCorrect": false
-            },
-            {
-              "answer": "sadsad",
-              "isCorrect": false
-            }
-          ]
-        }
-      ],
-      "id": 7
-    },
-    {
-      "name": "asdasd",
-      "description": "sdasd",
-      "questions": [
-        {
-          "question": "asdad",
-          "answers": [
-            {
-              "answer": "asdasd",
-              "isCorrect": true
-            },
-            {
-              "answer": "asdas",
-              "isCorrect": false
-            },
-            {
-              "answer": "sasad",
-              "isCorrect": false
-            },
-            {
-              "answer": "saasd",
-              "isCorrect": false
-            }
-          ]
-        }
-      ],
-      "id": 8
     }
   ]
 }
