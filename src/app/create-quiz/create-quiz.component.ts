@@ -3,7 +3,6 @@ import { FormArray, FormBuilder, Validators } from '@angular/forms';
 import { Quiz } from '../interfaces/quiz';
 import { QuizService } from '../services/quiz.service';
 import { Router } from '@angular/router';
-import { ThisReceiver } from '@angular/compiler';
 
 @Component({
   selector: 'app-create-quiz',
@@ -85,5 +84,9 @@ export class CreateQuizComponent {
     error => {
       this.router.navigate(['/error'])
     })
+  }
+
+  onCancel() {
+    this.router.navigate(['home'])
   }
 }

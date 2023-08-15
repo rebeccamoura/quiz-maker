@@ -1,0 +1,21 @@
+<div class="results-wrapper">
+    <div class="container">
+        <div class="results">
+            <h1 class="result">{{ congratulations() }} Você acertou {{ correctQuestions }} de {{ totalQuestions }} questões.</h1>
+        </div>
+
+        <div class="images">
+            <img *ngIf="!isGoodResult" src="../../assets/images/create-quiz-error.svg" alt="Ilustração de tristeza">
+            <img *ngIf="isGoodResult" src="../../assets/images/good-quiz-result.svg" alt="Ilustração de tristeza">
+        </div>
+
+        <div class="actions">
+            <button type="button" class="btn-sec" routerLink="/home">
+                Voltar para a home
+            </button>
+            <button type="button" class="btn" routerLink="/quizzes">
+                Jogar outro quiz
+            </button>
+        </div>
+    </div>
+</div>

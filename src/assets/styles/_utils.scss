@@ -29,9 +29,20 @@
 .btn-sec {
     background-color: $onbg;
     color: $bg;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: background-color .4s linear;
+    cursor: pointer;
     
     &:hover {
         background-color: darken($onbg, 5);
+    }
+
+    &:disabled {
+        background-color: grey;
+        text-shadow: 1px 1px 3px rgb(70, 69, 69);
+        cursor: not-allowed;
     }
 }
 

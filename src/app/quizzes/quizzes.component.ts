@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Quiz } from '../interfaces/quiz';
 import { QuizService } from '../services/quiz.service';
@@ -8,16 +8,12 @@ import { QuizService } from '../services/quiz.service';
   templateUrl: './quizzes.component.html',
   styleUrls: ['./quizzes.component.scss']
 })
-export class QuizzesComponent implements OnInit {
+export class QuizzesComponent {
 
   quizzes$: Observable<Quiz[]>;
 
   constructor( private quizService: QuizService ) {
     this.quizzes$ = this.quizService.getQuizzes()
-  }
-
-  ngOnInit() {
-    console.log(this.quizzes$)
   }
 
 }

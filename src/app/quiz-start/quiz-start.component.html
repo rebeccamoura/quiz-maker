@@ -1,0 +1,16 @@
+<div class="quiz-start-wrapper">
+    <div class="container">
+        <div class="quiz-start">
+            <h1 class="title">
+                {{ (quiz$ | async)?.name }}
+            </h1>
+            <p class="description">
+                {{ (quiz$ | async)?.description }}
+            </p>
+    
+            <button class="btn start" type="button" (click)="onStartQuiz()">
+                Iniciar
+            </button>
+        </div>
+    </div>
+</div>

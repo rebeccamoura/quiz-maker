@@ -5,6 +5,9 @@ import { QuizzesComponent } from './quizzes/quizzes.component';
 import { CreateQuizComponent } from './create-quiz/create-quiz.component';
 import { CreateQuizSuccessComponent } from './create-quiz-success/create-quiz-success.component';
 import { CreateQuizErrorComponent } from './create-quiz-error/create-quiz-error.component';
+import { QuizComponent } from './quiz/quiz.component';
+import { QuizStartComponent } from './quiz-start/quiz-start.component';
+import { QuizResultsComponent } from './quiz-results/quiz-results.component';
 
 const routes: Routes = [
   {
@@ -31,6 +34,18 @@ const routes: Routes = [
   {
     path: 'error',
     component: CreateQuizErrorComponent
+  },
+  {
+    path: 'quiz/:id',
+    component: QuizStartComponent
+  },
+  {
+    path: 'play',
+    component: QuizComponent
+  },
+  {
+    path: 'results',
+    component: QuizResultsComponent
   }
 ];
 

@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class QuizCardComponent {
 
+  @Input() id?: number;
   @Input() name!: string;
   @Input() description!: string;
 

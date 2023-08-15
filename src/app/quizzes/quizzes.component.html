@@ -8,13 +8,14 @@
 
         <div class="quizzes-wrapper" *ngIf="(quizzes$ | async) as quizzes">
             <app-quiz-card *ngFor="let quiz of quizzes"
+            [id]="quiz.id"
             [name]="quiz.name"
             [description]="quiz.description"></app-quiz-card>
         </div>
 
         <ng-container *ngIf="!(quizzes$ | async)?.length">
             <p>Nenhum quiz foi encontrado, crie o primeiro!</p>
-            <button class="btn">Criar quiz</button>
+            <button routerLink="/create-quiz" class="btn">Criar quiz</button>
         </ng-container>
     </div>
 </div>

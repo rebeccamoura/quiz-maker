@@ -1,0 +1,15 @@
+<div class="quiz">
+    <div class="container">
+        <div class="questions-wrapper" *ngIf="questions">
+            <div class="header">
+                <h1 class="title">
+                    {{ questions[currentQuestion].question }}
+                </h1>
+            </div>
+    
+            <button type="button" class="btn answer" *ngFor="let answer of questions[currentQuestion].answers" (click)="validateAnswer(answer.isCorrect)">
+                {{ answer.answer }}
+            </button>
+        </div>
+    </div>
+</div>

@@ -48,7 +48,9 @@
             </p>
 
             <div class="form-actions">
-                <button class="btn btn-sec cancel" type="button">Cancelar</button>
+                <button class="btn btn-sec cancel" type="button" (click)="onCancel()">
+                    Cancelar
+                </button>
                 <button class="btn submit" type="submit" [disabled]="quizForm.status === 'INVALID'">
                     Salvar
                 </button>

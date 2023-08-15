@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import '/src/assets/styles/utils';
+
+.quiz-start-wrapper {
+    .container {
+        .quiz-start {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: grid;
+            text-align: center;
+
+            .title {
+                font-size: $title;
+            }
+
+            .description {
+                font-size: $subtitle;
+                margin: 12px 0 20px;
+            }
+
+            .start {
+                font-size: $subtitle;
+                width: 100%;
+                max-width: 235px;
+                justify-self: center;
+            }
+        }
+    }
+}

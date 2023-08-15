@@ -12,6 +12,9 @@ import { QuizCardComponent } from './quiz-card/quiz-card.component';
 import { CreateQuizComponent } from './create-quiz/create-quiz.component';
 import { CreateQuizSuccessComponent } from './create-quiz-success/create-quiz-success.component';
 import { CreateQuizErrorComponent } from './create-quiz-error/create-quiz-error.component';
+import { QuizComponent } from './quiz/quiz.component';
+import { QuizStartComponent } from './quiz-start/quiz-start.component';
+import { QuizResultsComponent } from './quiz-results/quiz-results.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { CreateQuizErrorComponent } from './create-quiz-error/create-quiz-error.
     QuizCardComponent,
     CreateQuizComponent,
     CreateQuizSuccessComponent,
-    CreateQuizErrorComponent
+    CreateQuizErrorComponent,
+    QuizComponent,
+    QuizStartComponent,
+    QuizResultsComponent
   ],
   imports: [
     BrowserModule,
