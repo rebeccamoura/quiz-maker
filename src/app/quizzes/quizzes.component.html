@@ -13,9 +13,9 @@
             [description]="quiz.description"></app-quiz-card>
         </div>
 
-        <ng-container *ngIf="!(quizzes$ | async)?.length">
+        <div class="no-quiz" *ngIf="!(quizzes$ | async)?.length">
             <p>Nenhum quiz foi encontrado, crie o primeiro!</p>
             <button routerLink="/create-quiz" class="btn">Criar quiz</button>
-        </ng-container>
+        </div>
     </div>
 </div>

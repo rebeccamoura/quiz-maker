@@ -19,5 +19,33 @@
             justify-content: center;
             margin-bottom: 20px;
         }
+
+        .no-quiz {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+
+            p {
+                margin-bottom: 15px;
+            }
+
+            p, .btn {
+                font-size: $subtitle;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .quizzes {
+        .container {
+            .no-quiz {
+                p, .btn {
+                    font-size: $text;
+                }
+            }
+        }
     }
 }
