@@ -1,1 +1,74 @@
 @import '/src/assets/styles/utils';
+.container {
+    margin: auto;
+
+    .results-wrapper {
+        
+
+        .results {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .result {
+                font-size: $title;
+                text-align: center;
+            }
+    
+            .images {
+                .bad-result {
+                    width: 600px;
+                }
+            }
+        }
+
+        .actions {
+            margin-bottom: 50px;
+
+            .btn, .btn-sec {
+                width: 180px;
+            }
+
+            .btn-sec {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .container {
+        .results-wrapper {
+            .results {
+                flex-direction: column;
+                margin: 50px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        .results-wrapper {
+            .results {
+                .images {
+                    .bad-result {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        .results-wrapper {
+            .actions {
+                .btn-sec {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,14 +1,12 @@
-<div class="results-wrapper">
-    <div class="container">
+<div class="container">
+    <div class="results-wrapper">
         <div class="results">
             <h1 class="result">{{ congratulations() }} Você acertou {{ correctQuestions }} de {{ totalQuestions }} questões.</h1>
+            <div class="images">
+                <img class="bad-result" *ngIf="!isGoodResult" src="../../assets/images/create-quiz-error.svg" alt="Ilustração de tristeza">
+                <img class="good-result" *ngIf="isGoodResult" src="../../assets/images/good-quiz-result.svg" alt="Ilustração de tristeza">
+            </div>
         </div>
-
-        <div class="images">
-            <img *ngIf="!isGoodResult" src="../../assets/images/create-quiz-error.svg" alt="Ilustração de tristeza">
-            <img *ngIf="isGoodResult" src="../../assets/images/good-quiz-result.svg" alt="Ilustração de tristeza">
-        </div>
-
         <div class="actions">
             <button type="button" class="btn-sec" routerLink="/home">
                 Voltar para a home
