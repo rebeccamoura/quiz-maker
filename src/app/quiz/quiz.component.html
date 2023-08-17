@@ -1,15 +1,15 @@
 <div class="quiz">
     <div class="container">
         <div class="questions-wrapper" *ngIf="questions">
-            <div class="header">
-                <h1 class="title">
-                    {{ questions[currentQuestion].question }}
-                </h1>
-            </div>
+            <h1 class="question">
+                {{ questions[currentQuestion].question }}
+            </h1>
     
-            <button type="button" class="btn answer" *ngFor="let answer of questions[currentQuestion].answers" (click)="validateAnswer(answer.isCorrect)">
-                {{ answer.answer }}
-            </button>
+            <div class="answers-wrapper">
+                <button type="button" class="btn answer" *ngFor="let answer of questions[currentQuestion].answers" (click)="validateAnswer(answer.isCorrect)">
+                    {{ answer.answer }}
+                </button>
+            </div>
         </div>
     </div>
 </div>
