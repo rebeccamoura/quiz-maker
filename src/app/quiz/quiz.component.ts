@@ -10,15 +10,14 @@ import { Question, Quiz } from '../interfaces/quiz';
 })
 export class QuizComponent {
 
-  quizId!: number;
   quiz!: Quiz;
   questions!: Question[];
   currentQuestion: number = 0;
   correctQuestions: number = 0;
 
-  constructor( private quizService: QuizService, private route: ActivatedRoute, private router: Router ) {
+  constructor( private quizService: QuizService, private router: Router ) {
     this.quiz = this.quizService.getQuiz();
-    this.questions = this.quiz.questions;
+    this.questions = this.quiz.questions
   }
 
   validateAnswer(isCorrect: any) {

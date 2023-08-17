@@ -12,21 +12,21 @@ import { Quiz } from '../interfaces/quiz';
 })
 export class QuizStartComponent {
 
-  quizId!: number;
-  quiz$!: Observable<Quiz>;
+  quizIdByUrl!: number;
+  quiz!: Quiz;
 
-  constructor( private fb: FormBuilder, private route: ActivatedRoute, private quizService: QuizService, private router: Router ) {
+  constructor( private fb: FormBuilder, private route: ActivatedRoute, private quizService: QuizService ) {
     this.route.params.subscribe((params) => {
-      this.quizId = params['id']
+      this.quizIdByUrl = params['id']
     })
 
-    this.quiz$ = this.quizService.getQuizById(this.quizId);
-  }
+    this.quiz = this.quizService.getQuiz();
 
-  onStartQuiz() {
-    this.quiz$.subscribe((quiz: Quiz) => {
-      this.quizService.setQuiz(quiz)
-      this.router.navigate(['play'])
-    })
+    if (this.quiz?.id !== Number(this.quizIdByUrl)) {
+      this.quizService.getQuizById(this.quizIdByUrl).subscribe((quiz) => {
+        this.quiz = quiz;
+        this.quizService.setQuiz(quiz);
+      })
+    }
   }
 }

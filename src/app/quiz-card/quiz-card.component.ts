@@ -1,4 +1,7 @@
 import { Component, Input } from '@angular/core';
+import { Quiz } from '../interfaces/quiz';
+import { QuizService } from '../services/quiz.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-quiz-card',
@@ -7,8 +10,13 @@ import { Component, Input } from '@angular/core';
 })
 export class QuizCardComponent {
 
-  @Input() id?: number;
-  @Input() name!: string;
-  @Input() description!: string;
+  @Input() quiz!: Quiz;
+
+  constructor( private quizService: QuizService, private router: Router ) {}
+
+  onPlay() {
+    this.quizService.setQuiz(this.quiz);
+    this.router.navigateByUrl(`/quiz/${this.quiz.id}`)
+  }
 
 }

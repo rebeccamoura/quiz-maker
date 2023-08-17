@@ -8,9 +8,7 @@
 
         <div class="quizzes-wrapper" *ngIf="(quizzes$ | async) as quizzes">
             <app-quiz-card *ngFor="let quiz of quizzes"
-            [id]="quiz.id"
-            [name]="quiz.name"
-            [description]="quiz.description"></app-quiz-card>
+            [quiz]="quiz"></app-quiz-card>
         </div>
 
         <div class="no-quiz" *ngIf="!(quizzes$ | async)?.length">

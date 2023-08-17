@@ -2,13 +2,13 @@
     <div class="container">
         <div class="quiz-start">
             <h1 class="title">
-                {{ (quiz$ | async)?.name }}
+                {{ quiz.name }}
             </h1>
             <p class="description">
-                {{ (quiz$ | async)?.description }}
+                {{ quiz.description }}
             </p>
     
-            <button class="btn start" type="button" (click)="onStartQuiz()">
+            <button class="btn start" type="button" routerLink="/play">
                 Iniciar
             </button>
         </div>
