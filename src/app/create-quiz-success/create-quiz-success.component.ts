@@ -11,8 +11,8 @@ export class CreateQuizSuccessComponent {
   quizId!: number;
 
   constructor ( private router: Router ) {
-    // this.navigation = this.router.getCurrentNavigation();
-    // this.quizId = this.navigation.extras.state.quizId;
+    this.navigation = this.router.getCurrentNavigation();
+    this.quizId = this.navigation.extras.state.quizId;
   }
 
   goToQuiz() {
