@@ -1,193 +1,445 @@
 {
   "quizes": [
     {
-      "name": "asdasda",
-      "description": "asdasd",
+      "name": "QUIZ SELEÇÃO BRASILEIRA",
+      "description": "Quiz com a temática da seleção brasileira.",
       "questions": [
         {
-          "question": "asdasd",
+          "question": "Qual o atual técnico da seleção brasileira?",
           "answers": [
             {
-              "answer": "sadsa",
+              "answer": "Fernando Diniz",
               "isCorrect": true
             },
             {
-              "answer": "dsad",
+              "answer": "Tite",
               "isCorrect": false
             },
             {
-              "answer": "adsad",
+              "answer": "Jorge Jesus",
               "isCorrect": false
             },
             {
-              "answer": "sadasd",
+              "answer": "Dunga",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Quando ocorrerá a proxima copa do mundo?",
+          "answers": [
+            {
+              "answer": "2026",
+              "isCorrect": true
+            },
+            {
+              "answer": "2024",
+              "isCorrect": false
+            },
+            {
+              "answer": "2030",
+              "isCorrect": false
+            },
+            {
+              "answer": "2028",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Quantas copas do mundo o Brasil ganhou?",
+          "answers": [
+            {
+              "answer": "5",
+              "isCorrect": true
+            },
+            {
+              "answer": "4",
+              "isCorrect": false
+            },
+            {
+              "answer": "3",
+              "isCorrect": false
+            },
+            {
+              "answer": "2",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual foi o jogador que mais venceu a Copa do Mundo?",
+          "answers": [
+            {
+              "answer": "Pelé",
+              "isCorrect": true
+            },
+            {
+              "answer": "Cristiano Ronaldo",
+              "isCorrect": false
+            },
+            {
+              "answer": "Cafu",
+              "isCorrect": false
+            },
+            {
+              "answer": "Messi",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual o resultado do jogo Brasil x Alemanha nas semifinais da copa do mundo de 2014?",
+          "answers": [
+            {
+              "answer": "7 x 1",
+              "isCorrect": true
+            },
+            {
+              "answer": "6 x 1",
+              "isCorrect": false
+            },
+            {
+              "answer": "5 x 0",
+              "isCorrect": false
+            },
+            {
+              "answer": "8 x 2",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é o maior artilheiro da história da seleção brasileira?",
+          "answers": [
+            {
+              "answer": "Pelé",
+              "isCorrect": true
+            },
+            {
+              "answer": "Ronaldinho Gaúcho",
+              "isCorrect": false
+            },
+            {
+              "answer": "Ronaldo Fenômeno",
+              "isCorrect": false
+            },
+            {
+              "answer": "Neymar",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é o atual mascote da seleção brasileira?",
+          "answers": [
+            {
+              "answer": "Canarinho",
+              "isCorrect": true
+            },
+            {
+              "answer": "Fuleco",
+              "isCorrect": false
+            },
+            {
+              "answer": "Gauchito",
+              "isCorrect": false
+            },
+            {
+              "answer": "Beija-flor",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Quem é considerada a rainha do futebol",
+          "answers": [
+            {
+              "answer": "Marta",
+              "isCorrect": true
+            },
+            {
+              "answer": "Debinha",
+              "isCorrect": false
+            },
+            {
+              "answer": "Formiga",
+              "isCorrect": false
+            },
+            {
+              "answer": "Luiza",
               "isCorrect": false
             }
           ]
         }
       ],
-      "id": 1
+      "id": 4
     },
     {
-      "name": "adasdas",
-      "description": "asdasdd",
+      "name": "Você conhece mesmo Harry Potter?",
+      "description": "Quiz sobre Harry Potter",
       "questions": [
         {
-          "question": "sadasda",
+          "question": "Qual o nome todo do Harry Potter?",
           "answers": [
             {
-              "answer": "sadasdas",
+              "answer": "Harry James Potter",
               "isCorrect": true
             },
             {
-              "answer": "dsasada",
+              "answer": "Harry Edward Potter",
               "isCorrect": false
             },
             {
-              "answer": "sdsadsds",
+              "answer": "Harry Joe Potter",
               "isCorrect": false
             },
             {
-              "answer": "asdsaddas",
+              "answer": "Harry Bill Potter",
               "isCorrect": false
             }
           ]
         },
         {
-          "question": "asdsaasd",
+          "question": "Quem é o Professor de poções do 6 filme(livro)?",
           "answers": [
             {
-              "answer": "saasdasd",
+              "answer": "Horácio Slughorn",
               "isCorrect": true
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Albus Dumbledore",
               "isCorrect": false
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Severo Snape",
               "isCorrect": false
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Lord Voldemort",
               "isCorrect": false
             }
           ]
         },
         {
-          "question": "sadsadsa",
+          "question": "Quem é o(a) aluno(a)mais inteligente da saga?",
           "answers": [
             {
-              "answer": "sadsadsa",
+              "answer": "Hermione Granger",
               "isCorrect": true
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Draco Malfoy",
               "isCorrect": false
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Cedrico Diegory",
               "isCorrect": false
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Luna Lovengood",
               "isCorrect": false
             }
           ]
         },
         {
-          "question": "sadsadsa",
+          "question": "Qual o nome do(a) hipogrifo do Hagrid?",
           "answers": [
             {
-              "answer": "sadsadsa",
+              "answer": "Bicuço",
               "isCorrect": true
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Poppy",
               "isCorrect": false
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Dobby",
               "isCorrect": false
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Filipo",
               "isCorrect": false
             }
           ]
         },
         {
-          "question": "sadsadsa",
+          "question": "Quem é o(a) escritor(a) que escreveu Harry Potter?",
           "answers": [
             {
-              "answer": "sadsadsa",
+              "answer": "J.K. Rowling",
               "isCorrect": true
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Ian McEwan",
               "isCorrect": false
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Agatha Christie",
               "isCorrect": false
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Stephen King",
               "isCorrect": false
             }
           ]
         },
         {
-          "question": "sadsadsa",
+          "question": "Quem é o vilão da história?",
           "answers": [
             {
-              "answer": "sadsadsa",
+              "answer": "Voldemort",
               "isCorrect": true
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Albus Dumbledore",
               "isCorrect": false
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Draco Malfoy",
               "isCorrect": false
             },
             {
-              "answer": "sadsadsa",
+              "answer": "Rabicho",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Quantos filmes Harry Potter tem?",
+          "answers": [
+            {
+              "answer": "8",
+              "isCorrect": true
+            },
+            {
+              "answer": "7",
+              "isCorrect": false
+            },
+            {
+              "answer": "9",
+              "isCorrect": false
+            },
+            {
+              "answer": "10",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Quantos livros tem?",
+          "answers": [
+            {
+              "answer": "7",
+              "isCorrect": true
+            },
+            {
+              "answer": "8",
+              "isCorrect": false
+            },
+            {
+              "answer": "9",
+              "isCorrect": false
+            },
+            {
+              "answer": "10",
               "isCorrect": false
             }
           ]
         }
       ],
-      "id": 2
+      "id": 5
     },
     {
-      "name": "bakjfhjda",
-      "description": "asdasdjahjk",
+      "name": "Quiz da Marvel✨",
+      "description": "Para marvetes! Aqui terão perguntas sobre elenco, personagens, filmes, etc",
       "questions": [
         {
-          "question": "iudasuih",
+          "question": "Quem fala a frase \"See you in a minute\"?",
           "answers": [
             {
-              "answer": "jadsjas",
+              "answer": "Natasha Romanoff",
               "isCorrect": true
             },
             {
-              "answer": "ljsadna",
+              "answer": "Wanda",
               "isCorrect": false
             },
             {
-              "answer": "ajlsdnas",
+              "answer": "Capitão América",
               "isCorrect": false
             },
             {
-              "answer": "aljsdnals",
+              "answer": "Gamora",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Em que ano foi lançado o primeiro filme do homem de ferro?",
+          "answers": [
+            {
+              "answer": "2008",
+              "isCorrect": true
+            },
+            {
+              "answer": "2009",
+              "isCorrect": false
+            },
+            {
+              "answer": "2010",
+              "isCorrect": false
+            },
+            {
+              "answer": "2011",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Em que ano se passa o filme dos vingadores ultimato?",
+          "answers": [
+            {
+              "answer": "2023",
+              "isCorrect": true
+            },
+            {
+              "answer": "2022",
+              "isCorrect": false
+            },
+            {
+              "answer": "2021",
+              "isCorrect": false
+            },
+            {
+              "answer": "2020",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual o nome da esposa do Tony stark",
+          "answers": [
+            {
+              "answer": "Pepper",
+              "isCorrect": true
+            },
+            {
+              "answer": "Kate",
+              "isCorrect": false
+            },
+            {
+              "answer": "Stacy",
+              "isCorrect": false
+            },
+            {
+              "answer": "Mary",
               "isCorrect": false
             }
           ]
         }
       ],
-      "id": 3
+      "id": 7
     }
   ]
 }

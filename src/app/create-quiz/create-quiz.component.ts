@@ -79,7 +79,11 @@ export class CreateQuizComponent {
   
   onSubmit(): void {
     this.quizService.createQuiz(this.quizForm.value as Quiz).subscribe(success => {
-      this.router.navigate(['/success'])
+      this.router.navigate(['/success'], {
+        state: {
+          quizId: success.id
+        }
+      })
     },
     error => {
       this.router.navigate(['/error'])

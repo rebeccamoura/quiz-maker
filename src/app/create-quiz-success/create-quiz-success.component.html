@@ -1,10 +1,14 @@
 <div class="create-quiz-success">
-    <div class="texts">
-        <h1 class="title">Eba! Seu quiz foi criado com sucesso.</h1>
-        <p>Link do quiz</p>
-        <button type="button" class="btn">Copiar</button>
-    </div>
-    <div class="images">
-        <img src="../../assets/images/create-quiz-success.svg" alt="Ilustração de celebração">
+    <div class="container">
+        <div class="texts">
+            <h1 class="title">Eba! Seu quiz foi criado com sucesso.</h1>
+            <div class="btn-wrapper">
+                <button type="button" class="btn-sec" routerLink="/create-quiz">Criar outro quiz</button>
+                <button type="button" class="btn" (click)="goToQuiz()">Ir para quiz criado</button>
+            </div>
+        </div>
+        <div class="images">
+            <img src="../../assets/images/create-quiz-success.svg" alt="Ilustração de celebração">
+        </div>
     </div>
 </div>
