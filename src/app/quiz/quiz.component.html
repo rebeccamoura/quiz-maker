@@ -6,7 +6,7 @@
             </h1>
     
             <div class="answers-wrapper">
-                <button type="button" class="btn answer" *ngFor="let answer of questions[currentQuestion].answers" (click)="validateAnswer(answer.isCorrect)">
+                <button type="button" class="btn answer" *ngFor="let answer of shuffleAnswers(questions[currentQuestion].answers)" (click)="validateAnswer(answer.isCorrect)">
                     {{ answer.answer }}
                 </button>
             </div>
