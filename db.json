@@ -440,6 +440,55 @@
         }
       ],
       "id": 7
+    },
+    {
+      "name": "Quiz conhecimentos gerais",
+      "description": "Teste seus conhecimentos gerais",
+      "questions": [
+        {
+          "question": "Qual cientista foi o responsável por descobrir a radiação?",
+          "answers": [
+            {
+              "answer": "marie curie",
+              "isCorrect": true
+            },
+            {
+              "answer": "oppenheimer",
+              "isCorrect": false
+            },
+            {
+              "answer": "niels bohr",
+              "isCorrect": false
+            },
+            {
+              "answer": "albert einstein",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "O planeta terra está entre quais planetas?",
+          "answers": [
+            {
+              "answer": "venus e marte",
+              "isCorrect": true
+            },
+            {
+              "answer": "mercurio e saturno",
+              "isCorrect": false
+            },
+            {
+              "answer": "saturno e marte",
+              "isCorrect": false
+            },
+            {
+              "answer": "venus e mercurio",
+              "isCorrect": false
+            }
+          ]
+        }
+      ],
+      "id": 8
     }
   ]
 }
