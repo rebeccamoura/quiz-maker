@@ -1,6 +1,10 @@
 # QuizMaker
 
-Projeto construído com Angular e JSON-SERVER.
-Para o projeto funcionar corretamente, deixe dois comandos rodando: "ng s" para rodar o front-end e "json-server --watch db.json" para rodar a nossa API fake.
+Projeto construído com Angular e JSON-SERVER. Alguns dos conceitos importantes utilizados no projeto: Forms e Reactive Forms, RXJS, Método HTTP, entre outros.
 
-Observação: Projeto criado com o propósito de estudo.
+# Como rodar o projeto
+Abra dois terminais com a pasta do projeto e deixe um rodando o comando "ng s" e o outro rodando o comando "json-server --watch db.json" para rodar a API fake.
+
+-
+
+Projeto criado com o propósito de estudo.
